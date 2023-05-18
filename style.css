@@ -238,8 +238,6 @@ sans-serif;
     font-weight: bold;
 }
 
-
-
 .imagen-Diferenciales{
     width: 60%;
     transition: 400ms;
@@ -256,5 +254,25 @@ sans-serif;
 }
 
 
+/*  Diseno para telefonos. */
+@media screen and (max-width:480px){
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-Diferenciales{
+        width: 100%;
+    }
+
+}
 
 
